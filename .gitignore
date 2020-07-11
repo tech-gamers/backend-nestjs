@@ -2,6 +2,9 @@
 /dist
 /node_modules
 
+# ENV files
+*.env
+
 # Logs
 logs
 *.log
@@ -31,4 +34,4 @@ lerna-debug.log*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
-!.vscode/extensions.json
+!.vscode/extensions.json*.env
